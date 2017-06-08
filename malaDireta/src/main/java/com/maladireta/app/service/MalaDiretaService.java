@@ -43,9 +43,8 @@ public class MalaDiretaService {
 				List<Nota> notas = responseNotas.getBody();
 
 				for (Nota nota : notas) {
-					// --- Verifica se o Aluno tem nota inferior a 7 para
-					// elege-lo a Mala Direta ---
-					if (nota.getValor() <= 7.0) {
+					// --- Verifica se o Aluno tem nota inferior a 7 para elege-lo a Mala Direta ---
+					if (nota.getValor() < 7.0) {
 						alunos.get(i).setNotas(notas);
 						break;
 					}
