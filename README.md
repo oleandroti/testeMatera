@@ -15,13 +15,13 @@ Get: /alunos -> é fornecido uma listagem dos alunos cadastrados
 3 - MalaDireta  </br>
 server.port = 8080 </br>
 Nesse Serviço ele acessa o serviço de alunos para pegar a lista de alunos cadastrados 
-e com os dados do aluno eu acesso o serviços para pegar a lista de notas do aluno.
+e com os dados do aluno apos acessa o serviços para pegar a lista de notas do aluno.
  </br>
   </br>
-Verifica se existe alguma nota inferior e elege o aluno para ser enviado um email para orienta-lo para ir a Secretaria.
+Verifica se existe alguma nota inferior a7 e elege o aluno para ser enviado um email para orienta-lo para ir a Secretaria.
  </br>
 Orientação: </br>
-Subir os 3 servidores e acessar e fazer um acesso POST: </br>
+Subir os 3 servidores, acessar e fazer um acesso POST: </br>
 Http://localhost:8080/malaDireta
 
 Para mais informações entrar em contato:  </br>
